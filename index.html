@@ -300,7 +300,7 @@ async function update(){
     if(game){
       text.innerHTML=`Sta giocando a ${game.name}`;
       if(game.assets?.large_image){
-        img.src=`https://cdn.discordapp.com/app-assets/${game.application_id}/${game.assets.large_image}.png`;
+        img.src=`https://cdn.discordapp.com/app-assets/${game.application_id}/${game.assets.large_image}.webp?size=256`;
         img.style.display="block";
       }
       return;
